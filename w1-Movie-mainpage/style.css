@@ -1,0 +1,76 @@
+/* styles.css */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  box-sizing: border-box;
+}
+
+body>h1 {
+  margin-left: 20px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #442CDC;
+  color: white;
+  padding: 10px 20px;
+}
+
+.header>a {
+  text-decoration: none;
+  color: white;
+}
+
+.logo {
+  font-size: 24px;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  margin-left: 20px;
+}
+
+.main {
+  display: flex;
+  /* flex-direction: row; */
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.movie-card {
+  padding: 10px;
+  margin-bottom: 20px;
+  width: calc(20% - 25px);
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.movie-card:hover {
+  transform: translateY(-5px);
+}
+
+.movie-card img {
+  max-width: 100%;
+}
+
+.movie-info {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.footer {
+  background-color: #442CDC;
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+}

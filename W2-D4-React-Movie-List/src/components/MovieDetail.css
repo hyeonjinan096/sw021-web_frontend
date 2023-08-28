@@ -1,0 +1,21 @@
+:root {
+  --mypage-component-color: #eb9705;
+  --about-component-color: #097e4d;
+  --tweets-component-color: #003380;
+  --main-font-color: #b5b3b3;
+  --main-background-color: #7a87a9;
+}
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+section{
+  margin:6% 20% 6% 20%;
+  border: 2px solid var(--main-font-color);
+  border-radius: 20px;
+   box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+

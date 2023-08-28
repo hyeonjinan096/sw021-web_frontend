@@ -1,0 +1,41 @@
+/* * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+    color: #b5b3b3;
+   
+}
+/* li{
+  display: flex; /* 가로로 나열되는 대신 블록 요소처럼 표시 */
+  /* width: 20%; /* 각 요소의 너비 설정 */ */
+  /* padding: 6px; */
+  /* gap:7px; */
+  /* flex: 1 0 calc(20% - 12px); */
+  /* 무조건 calc(20% - 12px) 사이 띄어주자 */
+} */ */
+/* .poster__box{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.movie__poster{
+  width: 100%;
+  height: auto;
+  max-width: 239px; /* 최대 너비 설정 */
+  /*max-height: 340px; /* 최대 높이 설정 */
+  /* height: 300px;  */
+} */
+/* .title_star_box{
+margin-top:10px;
+  display: flex;
+  justify-content: space-between;
+}
+.movie__title{
+  margin-right:3%;
+}
+.movie__box{
+  border: 1px solid #b5b3b3;
+  padding: 5px;
+}
+ */
